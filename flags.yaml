@@ -1,0 +1,13 @@
+my-new-feature:
+  variations:
+    activated: true
+    deactivated: false
+  version: 1.0.1
+  targeting:
+    - name: Rule 1
+      query: key eq "aae1cb41-c3cb-4753-a117-031ddc958f82"
+      variation: activated
+  defaultRule:
+    variation: deactivated
+  metadata:
+    link: https://gofeatureflag.org
